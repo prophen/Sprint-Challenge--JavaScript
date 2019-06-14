@@ -31,7 +31,7 @@ const greeting = (first, last) => console.log('greeting() result:',`Hello ${firs
 
 // Explanation: 
 /*
-`nestedfunction() is defined within the same code block as the variable `internal` and is itself like a variable of `myFunction()`. 
+`nestedfunction() is defined within the same code block (same scope) as the variable `internal` and is itself like a variable of `myFunction()`. 
 */
 
 const external = "I'm outside the function";
