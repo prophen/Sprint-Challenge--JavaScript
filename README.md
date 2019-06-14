@@ -30,24 +30,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-`.forEach` takes each element of an array and does something to it without returning a new array. You can do the same with `.map` but map creates a new array with changed values.
+>`.forEach` takes each element of an array and does something to it without returning a new array. You can do the same with `.map` but map creates a new array with changed values.
 
 2. What is the difference between a function and a method?
 
-A method and a function are similar. A method is a function that is bound to an object and called with dot notation.
+>A method and a function are similar. A method is a function that is bound to an object and called with dot notation.
 
 3. What is closure?
-Closures are functions within functions that have access to variables in the outer function but can maintain its own variables independent of the enclosing function.
+
+>Closures are functions within functions that have access to variables in the outer function but can maintain its own variables independent of the enclosing function.
 
 4. Describe the four rules of the 'this' keyword.
- * Window Object Binding - The value of "this" is the window or console Object.
- * Implicit Binding - this is the object when calling functions using dot notation
- * New Binding - this refers to the instance of an object that is created with new and the constructor function's name
- * Explicit Binding - happens when this is called explicitly with .call and .apply
+> * Window Object Binding - The value of "this" is the window or console Object.
+> * Implicit Binding - this is the object when calling functions using dot notation
+> * New Binding - this refers to the instance of an object that is created with new and the constructor function's name
+> * Explicit Binding - happens when this is called explicitly with .call and .apply
 
 5. Why do we need super() in an extended class?
 
-We need to call super to get all of the shared properties of the parent class into the child class.
+> We need to call super to get all of the shared properties and methods of the parent class into the child class.
 
 ## Project Set up
 
@@ -85,11 +86,11 @@ This challenge takes a look at callbacks and closures as well as scope.
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
