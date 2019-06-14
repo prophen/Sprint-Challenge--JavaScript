@@ -5,6 +5,14 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
+class Dinosaur {
+  constructor(props) {
+    this.name = props.name
+    this.diet = props.diet
+    this.weight = props.weight
+    this.period = props.period
+  }
+}
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
